@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply mx-auto flex min-h-screen max-w-[1440px] items-center justify-center font-libreFranklin;
+  }
+
+  .input-email {
+    @apply h-10 w-full rounded-full px-8 text-xs outline outline-1 outline-paleBlue placeholder:text-paleBlue md:h-12;
+  }
+
+  .error-email {
+    @apply outline-lightRed;
+  }
+}
