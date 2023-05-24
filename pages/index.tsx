@@ -11,7 +11,7 @@ export default function Home() {
         <title>CazzKaro | Coming Soon</title>
         <meta name="The only ecommerce solution for HIT" content="CazzKaro" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.jpg" />
       </Head>
       <main className="mx-auto flex w-[375px] flex-col gap-5 p-12 md:w-[540px]">
         <header className="flex items-center justify-center">
